@@ -92,15 +92,15 @@ a:hover, a:focus, a:active, h1, h2, .employer{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 670px) {
     .content {
         display: flex;        
     }
     .left {
-        flex: 0 0 30%;
+        flex: 0 0 1;
     }
     .rigth {
-        flex: 0 0 68%;
+        flex:0 0 2;
     }
     .text {
         padding: 40px
