@@ -1,0 +1,108 @@
+body{
+    font-size:medium;
+    background-image: url(obrazky/preview.jpg);
+    font-family: 'Josefin Sans', sans-serif;
+    }
+
+img {
+    width: 100%;
+}
+
+h1{
+    font-size:2.5em;
+    margin-bottom: 3px;
+}
+
+h2{
+    font-size:1.7em;
+    margin: 40px 0 3px 0;
+    text-shadow: 1px 1px black;
+}
+
+h3{
+    font-size:1.3em;
+    margin:10px 0 3px;
+    text-decoration: underline;
+}
+
+p{
+    margin:5px 0;    
+}
+
+.content{
+    height: 100%;
+    margin: 5%;
+    box-shadow: 0 0 20px  rgb(97, 97, 97);
+    border: 2px solid black;
+}
+
+div.left{
+    background-color: rgb(2, 24, 8);
+    color: lightgray; 
+}
+
+div.right{
+    background-color: whitesmoke;
+}
+
+.text {
+    padding: 30px;
+}
+
+
+
+section.foto{
+    margin: 0;
+    }
+
+td{
+    padding: 0 10px 0 0;
+}
+
+.PC li{
+    display: inline-block;
+    padding: 5px;
+    background-color: darkolivegreen;
+    margin: 3px;
+    border: 1px black;
+}
+
+.others li{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(82, 92, 94);
+    margin: 3px;
+    border: 1px black;
+}
+
+li{
+    list-style-position: inside;
+}
+
+ul{
+    padding: 0;
+}
+
+a{
+    color: lightgray
+}
+
+a:hover, a:focus, a:active, h1, h2, .employer{
+    color:rgb(77, 190, 42);   
+}
+
+
+@media screen and (min-width: 600px) {
+    .content {
+        display: flex;        
+    }
+    .left {
+        flex: 0 0 30%;
+    }
+    .rigth {
+        flex: 0 0 68%;
+    }
+    .text {
+        padding: 40px
+    }
+}
